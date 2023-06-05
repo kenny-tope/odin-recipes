@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Faceless;
+    src: url(fonts/Faceless-K7wel.ttf);
+}
+
+@font-face {  
+    font-family: DM-sans;
+    src: url(fonts/DMSans-Regular.ttf);
+}
+
+body {
+    background-color: rgb(217, 245, 206);
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 12px;
+    margin-bottom: 32px
+}
+
+.home-list {
+    display: table;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    margin-top: 30px;
+
+}
+
+.home-list li {
+    margin-bottom: 30px;
+}
+
+.recipe-list { 
+    font-family: DM-sans;
+    display: block;
+    width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    font-size: 28px;
+    letter-spacing: 7.2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1, .link {
+    font-family: Faceless;
+    color: rgb(143, 242, 104);
+}
+
+
+
+h1:hover, .link:hover, .return:hover {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+img:hover {
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg) invert(1);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    filter: blur(7px);
+}
+
+.home-img {
+    margin-bottom: 60px;
+}
+
+.recipe-img {
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg) invert(1);
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: DM-sans;
+    display: block;
+    width: 700px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+ol { 
+    font-family: DM-sans;
+    display: block;
+    width: 700px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 { 
+    color: rgb(181, 158, 54);
+    font-size: 25px;
+    font-family: DM-sans;
+    text-align: center;
+    margin-top: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.return { 
+    display:block;
+    text-align: center;
+    font-family: Faceless;
+    color: rgb(143, 242, 104);
+    font-size: 28px;
+    letter-spacing: 7.2px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
